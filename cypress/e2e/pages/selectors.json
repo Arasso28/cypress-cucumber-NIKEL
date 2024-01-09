@@ -1,0 +1,29 @@
+{
+    "loginPageElements":{
+        "usernameField": "#user-name",
+        "passwordField": "#password",
+        
+        "loginButton": "#login-button",
+
+        "errorMessage": ".error"
+    },
+
+    "checkoutPageElements":{
+        "headerLabel": ".header_label",
+        "summaryInfoLabel": ".summary_info",
+        "completeLabel": ".complete-header",
+        
+        "productSortContainer": ".product_sort_container",
+        "inventoryItemContainer": ".inventory_item_name",
+
+        "primaryButton": ".btn_primary",
+        "shoppingCartButton": ".shopping_cart_link",
+        "checkoutButton": ".checkout_button",
+        "continueButton": "#continue",
+        "cartButton": ".cart_footer .btn_action.cart_button",
+
+        "firstNameField": "#first-name",
+        "lastNameField": "#last-name",
+        "postalCodeField": "#postal-code"
+    }
+}

@@ -6,6 +6,7 @@ Feature: Checkout Process
   Scenario: Complete Checkout
     Given I navigate to the Saucedemo website
     When I login with valid credentials
+    Then Verify home page
     And I filter products by name Z-A
     And I select the first product to add to the cart
     And I go to the cart and proceed to checkout
